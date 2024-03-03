@@ -10,23 +10,16 @@ html {
 body {
     background-color: white;
     border-radius: 10px;
-    border: 550px;
     box-shadow: 0 3px 10px;
-    border: 550px;
     margin: 0 auto;
-    width: 550px;
-
-    font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-    
+    width: 560px;
+    padding: 30px;    
 }
-
+    
 img {
     position: fixed;
-    top: 100px;
-    right: 420px;
+    margin-top: -100px;
+    margin-left: 450px;
     border-radius: 50%;
     border: 3px solid white; 
     width: 150px;
@@ -35,16 +28,22 @@ img {
 
 h1 {
     color: #d63031;
-    margin: 30px;
-    padding-top: 30px;
+    margin: 0;
     font-size: 36px;
-    font: bold;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
 p {
     font-size: 18px;
-    margin: 30px;
-    
+   
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
 }
 
 .twitter {
@@ -53,8 +52,16 @@ p {
     font-size: 18px;
     border-radius: 5px 5px 5px 5px;
     text-decoration: none;
-    text-transform: uppercase;    
+    text-transform: uppercase;  
+    width: 500px;    
 }
+
+/*background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px;
+    margin: 0 auto;
+    width: 560px;
+    padding: 30px; */
 
 .facebook {
     background-color: #3b5998;
