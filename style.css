@@ -13,7 +13,7 @@ body {
     box-shadow: 0 3px 10px;
     margin: 0 auto;
     width: 560px;
-    padding: 30px;    
+    padding: 30px;
 }
     
 img {
@@ -38,12 +38,15 @@ h1 {
 
 p {
     font-size: 18px;
+    margin-bottom: 30px;
    
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+
     text-align: justify;
+    
 }
 
 .twitter {
@@ -53,15 +56,24 @@ p {
     border-radius: 5px 5px 5px 5px;
     text-decoration: none;
     text-transform: uppercase;  
-    width: 500px;    
+    width: 500px;   
+    
+    display: inline-block;
+    padding: 10px;
+    width: 500px;
+    text-align: center;
+    
+    margin-bottom: 5px;
+
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
-/*background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 3px 10px;
-    margin: 0 auto;
-    width: 560px;
-    padding: 30px; */
+.twitter:hover {
+    background-color: #0b7bc1;
+}
 
 .facebook {
     background-color: #3b5998;
@@ -70,6 +82,20 @@ p {
     border-radius: 5px 5px 5px 5px;
     text-decoration: none;
     text-transform: uppercase;
+
+    display: inline-block;
+    padding: 10px;
+    width: 500px;
+    text-align: center;
+
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.facebook:hover {
+    background-color: #2b406e;
 }
 
 /*
